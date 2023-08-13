@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&family=Roboto:ital,wght@1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.top-nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.top-nav i {
+  margin: 10px;
+}
+.top-nav button {
+  margin: 5px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e893cf;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.top-nav button:hover {
+  color: #89fafd;
+}
+nav {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  color: #9376e0;
+}
+nav a {
+  text-decoration: none;
+  margin: 10px;
+  color: black;
+  font-size: 20px;
+}
+nav a:hover {
+  color: #e893cf;
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9376e0;
+}
+.right-container {
+  flex-basis: 40%;
+  height: 450px;
+  margin: 50px 50px 0px 50px;
+  padding: 10px 50px 0px 80px;
+}
+.left-container {
+  flex-basis: 40%;
+  margin: 30px;
+  background-color: #9376e0;
+}
+.left-container img {
+  width: 80%;
+  height: 450px;
+  padding: 5px;
+}
+label {
+  position: relative;
+  background-color: rgb(228, 21, 21);
+}
+label img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 5px;
+  width: 25px;
+}
+label input {
+  width: 250px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 35px;
+}
+.right-container .text h2 {
+  font-size: 30px;
+  color: #e8f94a;
+  margin-top: 5px;
+}
+.right-container .and {
+  font-size: 50px;
+  color: #b0c31c;
+}
+.right-container span h2 {
+  font-size: 30px;
+  color: #eeff52;
+}
+.right-container p {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.right-container button {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  margin: 35px 5px 5px 5px;
+  padding: 5px;
+  border-radius: 15px;
+  background: #e893cf;
+  color: #f6ffa6;
+  outline: none;
+  border: 1px solid white;
+}
+.right-container button:hover {
+  background-color: white;
+  color: #e893cf;
+}
+.right-container i {
+  margin: 45px 10px 10px 10px;
+  color: #f6ffa6;
+}
+.heading-services {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+  color: #250d67;
+}
+.cards {
+  width: 75%;
+  margin: 30px auto;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+.card {
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.card:hover {
+  background-color: #f3bcc8;
+}
+.card img {
+  width: 100%;
+  height: 50%;
+}
+.content {
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+
+}
+.content h2 {
+  margin-top: 5px;
+  letter-spacing: 1.5px;
+  color: #9376e0;
+}
+.content p {
+  margin-top: 10px;
+  color: black;
+}
+.content a {
+  margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #e893cf;
+  color: white;
+  font-size: 17px;
+  padding: 5px 18px;
+  border-radius: 40px;
+  letter-spacing: 1.5px;
+
+}
+.content a:hover {
+  background-color: #9376e0;
+  transition: 0.2s ease;
+  color: #f6ffa6;
+}
+.team-heading {
+  text-align: center;
+  text-decoration: underline;
+  color: #9376e0;
+  font-size: 40px;
+}
+.team-container {
+  width: 75%;
+  display: flex;
+  margin: 30px auto;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.team-card {
+  margin: 40px;
+  height: 300px;
+  padding: 35px;
+  align-items: center;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.img-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px;
+  background-color: #9376e0;
+  align-items: center;
+}
+.img-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.team-card h2 {
+  text-align: center;
+  color: #000000;
+}
+.team-card p {
+  text-align: center;
+  color: #26174d;
+  font-size: 20px;
+}
+.nav-toggle{
+  display:flexbox;
+}
+.company-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding:0px;
+   gap:10px; 
+}
+.team-container{
+  background-color: #e1adea;
+}
+.team-card{
+  background-color: #e893cf;
+}
+/* responsive design for tablet */
+@media screen and (max-width: 991px){
+    .nav-toggle{
+      display: block;
+    }
+    .nav-link a{
+      display: none;
+    }
+    .right-container{
+      margin: 70px;
+    }
+
+   .left-container{
+    margin:5px;
+    width: 100%;
+   }
+   .left-container img{
+    width: 100%;
+    height: 100%;
+   }
+   .team-container {
+    flex-wrap: wrap;
+    gap:5px;
+   }
+   .team-card{
+    height: 250px;
+    width:250px;
+    
+}
+.team-card p{
+  font-size: 15px;
+}
+   .img-container{
+    width:100px;
+    height:100px;
+   }
+    .img-container img{
+         width:100px;
+         height:100px;
+   }
+   .company-container{
+    margin:0px;
+    flex-wrap: wrap;
+    padding: 15px;
+   }
+}
+/* Responsive design for mobileview */
+@media screen and (max-width: 767px){
+  .nav-toggle{
+    display: block;
+    margin: 100px;
+    }
+    .logo{
+      font-size: 25px;
+      margin: 100px;
+    }
+  .nav-link a{
+    display: none;
+  }
+  .container{
+    display: block;
+  }
+  .right-container{
+   margin:0px;
+   letter-spacing: 0;
+   }
+   .right-container button{
+    margin-top: 0px;
+   }
+   .right-container i{
+    margin-top: 5px;
+   }
+   .team-container {
+    flex-wrap: wrap;
+
+   }
+   .company-container{
+    margin:0px;
+    height: 350px;
+    padding: 10px;
+   }
+}
